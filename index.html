@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The odin Foundation</title>
+</head>
+<body>
+    <h2>The Odin Foundation Notes:</h2>
+    <p>We can create clickable linkes to other pages and websites by
+       by using the <strong>Anchor Element</strong> the syntax of which is "<"a">"
+    </p>
+    <a>About The Odin Project</a>
+    <p>But this is only create a empty clickable link</p>
+    <p>We can add a link by using the hypertext reference attribute</p>
+    <p>In HTML, an attribute provides additional information about an element.</p>
+    <a href="https://www.theodinproject.com/about">About The Odin Project, now it will redirect!</a>
+    <p>We can also open the link in a new tab by using the target attribute, by default whick takes the _self value but we can make it to _blank</p>
+    <p>There is also the relation attribute, rel, This attribute is used to describe the relation between the current page and the linked document.</p>
+    <p>Which sould be equal to noopener noreferrer</p>
+    <p>The noopener attribute ensures that a link opened in a new tab or window cannot interact with or access the original page, for security reasons</p>
+    <P>The noreferrer attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of noopener, preventing the new page from accessing the original page.</P>
+    <a href="https://www.theodinproject.com/about" target = "_blank" ref = "noopener noreferrer">Open in a newpage</a>
+    <p>What we were talking about where absolute links, meaning links from other websites</p>
+    <p>Now we will use relative links, the links in our application by just mentioning the file name</p>
+    <a href="boilerplate.html">Go to the boilerplate page</a>
+    <p>If the reffered file is located in some other directory then give the full</p>
+    <a>Now adding a meme image to the file by using the void element, img and the attribute src</a>
+    <img src="./images/image1.png" alt="Chad Gandi">
+    <p>Image of gandi in alternet universe</p>
+    <p>Adding ../path will make you one level up to the parent directory</p>
+    <p>The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded.</p>
+    <p>There are more attribute for images too, like height="int_value" width="int_value,It's not a must to provide this but It's good if you provide them as it helps the browser to structure everything"</p>
+</body>
+</html>
