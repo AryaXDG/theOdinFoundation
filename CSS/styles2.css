@@ -1,0 +1,22 @@
+pre {
+    background-color: #1e1e1e; /* Dark background like code editors */
+    color: #ffffff; /* White text for contrast */
+    padding: 15px; /* Space inside the box */
+    border-radius: 8px; /* Rounded corners */
+    overflow-x: auto; /* Horizontal scrolling for long lines */
+    font-size: 16px; /* Readable text size */
+}
+
+code {
+    font-family: "Courier New", monospace; /* Monospace font for code */
+    color: #ffcc00; /* Yellowish text */
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: #ffcc00;
+}
+
